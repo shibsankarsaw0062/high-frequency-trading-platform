@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.pyc
+.venv/
+
+# C++ build binaries and files
+build/
+*.o
+*.out
+*.exe
+
+# Large Data files
+*.csv
+*.parquet
+*.db
+# Python ignores
+venv/
+__pycache__/
+*.pyc
+
+# C++ build ignores
+execution_engine/build/
+*.o
+
+# OS ignores
+.DS_Store
