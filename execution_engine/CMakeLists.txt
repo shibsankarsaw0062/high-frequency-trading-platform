@@ -13,3 +13,6 @@ add_executable(trading_engine main.cpp)
 
 # 2. Tell the compiler to link the database library directly into our executable
 target_link_libraries(trading_engine PRIVATE PostgreSQL::PostgreSQL)
+
+add_executable(backtester backtest.cpp)
+target_link_libraries(backtester pq)
